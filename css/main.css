@@ -1,0 +1,32 @@
+body{
+height: 100%;
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+margin: 0;    
+background-color: royalblue;
+}
+
+.table_homework{
+    font-size: 25px;
+    transform: scale(1);
+    color: white;
+}
+
+.table_homework:hover{
+    transform: scale(2);
+}
+.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+
+}
+
+ th, td  {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid blue;
+}
